@@ -68,6 +68,7 @@ body {
     justify-content: center;
     align-content: space-between;
     gap: 20px;
+    display: none;
 }
 .card p {
     color: white;
@@ -145,7 +146,7 @@ header .search i,
 }
 .column .col {
     margin: 20px;
-    width: 350px;
+    width: 300px;
     padding: 20px;
     text-align: center;
     display: flex;

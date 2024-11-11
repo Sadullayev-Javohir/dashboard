@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="./style.css">
+
+    <!-- boxicon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <!-- Navbar fixed -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+            <h1>Dashboard</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><img src="./images/dashboard.png" alt="dashboard"><span>Dashboard</span></a>
+                    <div>></div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/product.png" alt="product"><span>Product</span></a>
+                    <div>></div>
+                </li>
+                <li>
+                    <a class="active" href="#"><img src="./images/customers.png" alt="customers"><span>Customers</span></a>
+                    <div>></div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/income.png" alt="income"><span>Income</span></a>
+                    <div>></div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/promote.png" alt="promote"><span>Promote</span></a>
+                    <div>></div>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/help.png" alt="help"><span>Help</span></a>
+                    <div>></div>
+                </li>
+            </ul>
+        </nav>
+        <div class="card">
+            <p>Upgrade to  PRO to get access all Features!</p>
+            <button>Get Pro Now!</button>
+        </div>
+        <div class="account">
+            <div class="account-image">
+                <img src="./images/radius.png" alt="">
+            </div>
+            <div class="account-text">
+                <h6>Evano</h6>
+                <p>Project Manager</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+     <div class="container">
+        <header>
+            <h4>Hello Evano 👋</h4>
+            <div class="search">
+                <i class='bx bx-search'></i>
+                <input type="search" placeholder="Search">
+            </div>
+        </header>
+    
+        <!-- column -->
+        <div class="column">
+            <div class="col">
+                <div class="col-img">
+                    <img src="./images/col-1.png" alt="">
+                </div>
+                <div class="col-text">
+                    <h6>Total Customers</h6>
+                    <h1>5,423</h1>
+                    <p><span style="color: green;"><i class='bx bxs-arrow-to-top'></i>16%</span> this month</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-img">
+                    <img src="./images/col-2.png" alt="">
+                </div>
+                <div class="col-text">
+                    <h6>Members</h6>
+                    <h1>1,893</h1>
+                    <p><span><i class='bx bxs-arrow-from-top' ></i>1%</span> this month</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-img">
+                    <img src="./images/col-2.png" alt="">
+                </div>
+                <div class="col-text">
+                    <h6>Active Now</h6>
+                    <h1>893</h1>
+                    <p><span><i class='bx bxs-arrow-from-top' ></i>2%</span> this month</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-container">
+            <div class="table-text-container">
+                <div class="table-container-text">
+                    <h4>All Customers</h4>
+                    <p>Active Members</p>
+                </div>
+                <div class="table-container-search">
+                    <div class="search">
+                        <i class='bx bx-search'></i>
+                        <input type="search" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer Name</th>
+                        <th>Company</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane Cooper</td>
+                        <td>Microsoft</td>
+                        <td>(205)555-0119</td>
+                        <td>jane@gmail.com</td>
+                        <td>United States</td>
+                        <td><button>Active</button></td>
+                    </tr>
+                    <tr>
+                        <td>Floyd Miles</td>
+                        <td>Yahoo</td>
+                        <td>(205)555-0100</td>
+                        <td>floyd@yahoo.com</td>
+                        <td>Kiribati</td>
+                        <td><button class="inactive">Inactive</button></td>
+                    </tr>
+                    <tr>
+                        <td>Ronald Richards</td>
+                        <td>Adobe</td>
+                        <td>(302)555-0107</td>
+                        <td>ronald@adobe.com</td>
+                        <td>Israel</td>
+                        <td><button class="inactive">Inactive</button></td>
+                    </tr>
+                    <tr>
+                        <td>Marvin McKinney</td>
+                        <td>Tesla</td>
+                        <td>(252)555-0126</td>
+                        <td>marvin@tesla.com</td>
+                        <td>Iran</td>
+                        <td><button>Active</button></td>
+                    </tr>
+                    <tr>
+                        <td>Jerome Bell</td>
+                        <td>Google</td>
+                        <td>(629)555-0129</td>
+                        <td>jerome@google.com</td>
+                        <td>Reunion</td>
+                        <td><button>Active</button></td>
+                    </tr>
+                    <tr>
+                        <td>Kathryn Murphy</td>
+                        <td>Microsoft</td>
+                        <td>(406)555-0120</td>
+                        <td>kathryn@microsoft.com</td>
+                        <td>Curacao</td>
+                        <td><button>Active</button></td>
+                    </tr>
+                    <tr>
+                        <td>Jacob Jones</td>
+                        <td>Yahoo</td>
+                        <td>(208)555-0112</td>
+                        <td>jacob@yahoo.com</td>
+                        <td>Brazil</td>
+                        <td><button>Active</button></td>
+                    </tr>
+                    <tr>
+                        <td>Kristin Watsen</td>
+                        <td>Facebook</td>
+                        <td>(704)555-0127</td>
+                        <td>kristin@facebook.com</td>
+                        <td>Aland Islands</td>
+                        <td><button class="inactive">Inactive</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="footer">
+                <div class="footer-text">
+                    <p>Showing data 1 to 8 of 256k entries</p>
+                </div>
+                <div class="footer-numbers">
+                    <a href="#"><</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">...</a>
+                    <a href="#">40</a>
+                    <a href="#">></a>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
